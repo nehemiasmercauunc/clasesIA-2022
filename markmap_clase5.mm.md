@@ -36,9 +36,11 @@ El algoritmo toma las métricas como distancias geométricas y las trata de form
 ### K-MEANS (Algoritmo)
 - Permite calibrar rápidamente, cuál es el número de cluster óptimo para el dataset a tratar
 - Tiene incorporado, la curva ELBOW: mide en función del número de clusters, la inercia.
+  - [Explicación ELBOW en python](https://www.geeksforgeeks.org/elbow-method-for-optimal-value-of-k-in-kmeans/) 
 - Mientras las masas esten mas cercanas, la inercia es menor. Esto tiene que ver con la similitud de los datos respecto a los atributos.
 - La cantidad de clusters a elegir, tiene que ver con la curva ELBOW.
 - Cada cluster, tiene un centroide.
+
 
 ### HAC (Algoritmo jerárquico)
 - Jerarquía entre los distintos niveles, determinando la cantidad de clusters por agrupación en cada nivel.
