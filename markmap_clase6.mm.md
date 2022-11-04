@@ -43,3 +43,15 @@
 
 - Aprendizaje Refuerzo (reinforcement)
     - Pueden existir algoritmos que tengan atributo target. Conocen el atributo target pero no se lo proporciona en el entrenamiento de forma previa. Sino que se lo premia o castiga en base a cuanto se acerque o cuanto se aleje a lo que debería ser.
+
+## Redes Neuronales Artificiales
+- Inspiradas en como lo hace el cerebro humano: CONEXIONISTAS
+- Su dinámica de actualización de su configuración es media o lenta.
+- Aprendizaje: No se programan, se entrenan.
+- Hay un algoritmo de entrenamiento y uno de ejecución (este último sirve para el testeo, validación y generalización).
+- Arquitectura paralela, distribuida, adaptativa.
+- Frente a nuevos ejemplos, todavia se va a probando el algoritmo, sigue entrenando.
+- El despliegue total, se adquiere cuando realmente el agente adquiere capacidades para generalizar en el dominio donde se estaba entrenando previamiente, y entrenando luego.
+- En ese momento, el agente puede ser autónomo o no (autonomía significa, que tenga la capacidad de seguir aprendiendo a lo largo de su ciclo de vida).
+- "Degradación elegante" frente al error. Robustas al ruido en entornos borrosos.
+- Generalizan a partir de ejemplos.
