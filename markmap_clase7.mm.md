@@ -78,3 +78,18 @@
 ## Perceptron Simple (Rosenblat 1958) 
 - Es Aprendizaje supervisado
 - El modelo funciona bien cuando el problema es linealmente separado: se puede trazar un hiperplano o  hiperespacio en un espacio de dimensión nxn.  - ![Linealmente_separable](img/funcion_linealmente_separable.png "Linealmente_separable")
+- El modelo no funciona bien cuando el problema es linealmente no separable.   - ![Linealmente_no_separable](img/funcion_linealmente_no_separable.png "Linealmente_no_separable")
+- No puede resolver la puerta lógica XOR
+
+### Perceptron simple como Clasificador
+- ![perceptron_simple](img/perceptron_simple.png "perceptron_simple")
+- La neurona de salida produce un potencial post sinaptico, que mediante una función de activación produce una salida.
+
+#### Algoritmo de entrenamiento para N elementos de entrada y uno de salida (1 neurona)
+- 1. Inicialización de los pesos y el umbral:
+    Se asignan los valores aleatorios a cada uno de los pesos ($w_i$) y al umbral ($w_{\theta}=\theta$)
+- 2. Presentación de un nuevo par (n Entradas, 1 Salida esperada)
+    Presentar un nuevo aptrón de entrada junto con la salida esperada
+- 3. Cálculo de la salida actual
+    $$y_i=f(\sum_{i=1}^N  w_{i}* x_{i} - \theta{i} )$$
+- 4. Adaptación de los pesos ---> Vuelve al punto 2.
