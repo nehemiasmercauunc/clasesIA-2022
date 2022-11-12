@@ -53,13 +53,8 @@
 - Solución a la Supreción del Gradiente: AUTOENCODER.
 
 
+# Otras Aclaraciones
 
-
-
-
-
-//////////////////////////////////////////////////////////////////
-(Ver si dejo esto o no)
 ## Perceptron Multicapa
 - Se utiliza TensoFlow con api Keras
 - Sirve para (dependiendo la configuración de la neurona): 
@@ -71,5 +66,3 @@
 
 ## Transfer
 - Yolo
-
-//////////////////////////////////////////////////////////////////////
